@@ -1,8 +1,9 @@
 function takeANumber(katzDeliLine) {
-  var deliNumber = katzDeliLine.length + 1;
-  var deliLoudspeaker = "Welcome, " + ticketNumber + ". You are number " + deliNumber + " in line.";
-  Line.push(name);
-  console.log(deliLoudspeaker);
+  var deliNumber = 1;
+  var deliLoudspeaker = "Welcome, you are number " + deliNumber;
+  katzDeliLine.push(deliNumber);
+  deliNumber++;
+  return deliLoudspeaker;
 }
 
 function nowServing(katzDeliLine) {
