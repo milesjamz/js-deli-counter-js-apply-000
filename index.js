@@ -1,6 +1,6 @@
-function takeANumber(katzDeliLine, name) {
+function takeANumber(katzDeliLine) {
   var deliNumber = katzDeliLine.length + 1;
-  var deliLoudspeaker = "Welcome, " + name + ". You are number " + deliNumber + " in line.";
+  var deliLoudspeaker = "Welcome, " + ticketNumber + ". You are number " + deliNumber + " in line.";
   Line.push(name);
   console.log(deliLoudspeaker);
 }
