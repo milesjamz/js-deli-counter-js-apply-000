@@ -35,16 +35,17 @@ deliLoudspeaker = deliLoudspeaker + ", " + (i+1) + ". " + katzDeliLine[i];
 
 return deliLoudspeaker;
 }
-takeANumber("Ada")
-takeANumber("Grace")
-nowServing
-nowServing
-takeANumber("Steven")
-takeANumber("Blake")
-takeANumber("Avi")
-nowServing
-nowServing
-takeANumber("Bill")
-takeANumber("Jane")
-takeANumber("Ann")
-currentLine
+var line = []
+takeANumber(line, "Ada")
+takeANumber(line, "Grace")
+nowServing(line)
+nowServing(line)
+takeANumber(line, "Steven")
+takeANumber(line, "Blake")
+takeANumber(line, "Avi")
+nowServing(line)
+nowServing(line)
+takeANumber(line, "Bill")
+takeANumber(line, "Jane")
+takeANumber(line, "Ann")
+currentLine(line)
